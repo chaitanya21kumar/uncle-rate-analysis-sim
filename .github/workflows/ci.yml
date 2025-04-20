@@ -1,0 +1,19 @@
+name: Build and Test C++ Project
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install CMake
+      run: sudo apt-get install cmake -y
+    - name: Build and Run
+      run: |
+        rm -rf build
+        mkdir build
+        cd build
+        cmake ..
+        make
+        ./sim_driver
