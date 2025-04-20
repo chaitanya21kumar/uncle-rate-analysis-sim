@@ -21,5 +21,13 @@ Understanding uncle dynamics is essential for optimizing protocols like P2Pool v
 Below is the output graph showing main chain vs uncle shares:
 ![Uncle Rate Graph](uncle_rate_graph.png)
 
+Below is the graph showing Main Chain shares (1) and Uncle shares (0) as the simulation progresses:
+
+![Uncle Rate Graph](uncle_rate_graph_2.png)
+
+The majority of shares successfully extend the main chain, with occasional uncles due to network-induced latency — a realistic behavior in decentralized DAG protocols.
+
+
+
 ---
 Author: Chaitanya Kumar
