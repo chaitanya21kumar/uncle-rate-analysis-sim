@@ -19,7 +19,7 @@ Understanding uncle dynamics is essential for optimizing protocols like P2Pool v
 ## Simulation Result
 
 Below is the output graph showing main chain vs uncle shares:
-![Uncle Rate Graph](images/uncle_rate_graph.png)
+![Uncle Rate Graph](uncle_rate_graph.png)
 
 ---
 Author: Chaitanya Kumar
